@@ -2,19 +2,17 @@
 
 ## 1. 术语
 
-```
+
 Route: The basic building block of the gateway. It is defined by an ID, a destination URI, a collection of predicates, and a collection of filters. A route is matched if the aggregate predicate is true. 
-```
 - 路由，一组路由规则的基础组成模块。包含一个自定义的id，一个uri，一组断言和拦截器的集合。如果 这组断言匹配，则执行这个路由
 
-```
+
 - Predicate: This is a Java 8 Function Predicate. The input type is a Spring Framework ServerWebExchange. This lets you match on anything from the HTTP request, such as headers or parameters.
-```
+
 - 断言：匹配  http请求的一些路径或者参数
 
-```
+
 - Filter: These are instances of GatewayFilter that have been constructed with a specific factory. Here, you can modify requests and responses before or after sending the downstream request.
-```
 
 - 拦截器： 就是常用的filter。
 
