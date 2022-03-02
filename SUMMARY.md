@@ -19,3 +19,6 @@
          * [特性](./框架/MQ/RocketMQ/特性.md)
          * [架构设计](./框架/MQ/RocketMQ/架构设计.md)
          * [设计](./框架/MQ/RocketMQ/设计.md)
+
+* 经验总结
+  * [对于CAP的理解](./经验总结/对于CAP的理解.md)
